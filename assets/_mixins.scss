@@ -1,0 +1,37 @@
+@mixin onDesktop {
+  @media (min-width: 1078px) {
+    @content;
+  }
+}
+
+@mixin subtitle {
+  color: $blackContentColor;
+  text-align: center;
+  font-family: 'UkraineHead', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; 
+
+  @include onDesktop {
+    font-size: 23px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@mixin smallTitle {
+  color: $blackContentColor;
+    text-align: center;
+    font-family: 'UkraineHead', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    margin-bottom: 24px;
+    text-align: left;
+
+    @include onDesktop {
+      font-size: 23px;
+    }
+}
