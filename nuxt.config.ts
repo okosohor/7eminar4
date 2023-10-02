@@ -1,5 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  
+  // app: {
+  //   baseURL: '/nuxt-github-pages/', // baseURL: '/<repository>/'
+  //   buildAssetsDir: 'assets',
+  // },
   modules: [ 'nuxt-swiper',
     ['@nuxtjs/google-fonts', {
       families: {
