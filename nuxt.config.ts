@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
-    baseURL: '/7eminar/', // baseURL: '/<repository>/'
+    baseURL: '/7eminar4/', // baseURL: '/<repository>/'
     buildAssetsDir: 'assets',
   },
   modules: [ 'nuxt-swiper',
