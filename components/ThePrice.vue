@@ -53,9 +53,9 @@ onMounted(() => {
     </div>
       <div class="price__block">
         <div class="price__block-head">
-          <img class="price__block-head-img" src="@/assets/images/arrow.svg" alt="arrow">
-          <p class="price__block-head-title">ХІТ ПРОДАЖУ</p>
-          <img class="price__block-head-img" src="@/assets/images/arrow.svg" alt="arrow">
+          <img class="price__block-head-img" src="/assets/images/arrow.svg" alt="arrow">
+          <p class="price__block-head-title">ХТ ПРОДАЖУ</p>
+          <img class="price__block-head-img" src="/assets/images/arrow.svg" alt="arrow">
         </div>
         <div class="price__block-content">
           <div class="price__block-name">
